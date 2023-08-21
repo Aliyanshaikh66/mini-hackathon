@@ -92,7 +92,7 @@ function signup(event) {
             photoURL: user.photoURL,
         }).then(() => {
             // Now the photoURL is set for the user
-            window.location.href = "../index.html";
+            window.location.href = "./login.html";
         }).catch((error) => {
             console.log("Error setting profile picture:", error);
         });

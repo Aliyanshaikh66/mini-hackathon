@@ -64,7 +64,7 @@ function login(event) {
                 text: 'Login Successfull',
                 confirmButtonColor: "#252525"
             })
-            window.location.href = "../index.html";
+            window.location.href = "./index.html";
         })
         .catch((error) => {
             console.log("Login error:", error);
